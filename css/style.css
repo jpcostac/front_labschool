@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1{
+    font-size: 32px;
+}
+main{
+    padding-right: 20px ;
+    padding-left: 10px ;
+}
+
+#header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(25, 25, 221, 0.972);
+    color: white;
+    font-family: "Moderustic", sans-serif;
+}
+
+#footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    color: white;
+    font-family: "Moderustic", sans-serif;
+    background-color: rgba(25, 25, 221, 0.972);
+}
+
+#footer-container-social > a{
+    text-decoration: none;
+    color: white;
+}
+#footer-container-social{
+    margin-bottom: 8px ;
+}
+#search-container{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+}
+select{
+    margin-right: 10px;
+}
+table{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#button-page-init{
+  text-decoration: none;
+  color: white;
+}
+#button-page-init:hover{
+    color: rgb(24, 113, 246);
+}
+#uploadImage{
+    display: none;
+    
+}
+
+#text-upload-image{
+    background-color: blue;
+    color: white;
+    font-family: "Moderustic", sans-serif;
+    border-radius: 5px;
+    padding: 8px;
+    display: flex;
+}
+
+#container{
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+form > div{
+    margin-bottom: 10px;
+}
+
+#image-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#previewImage{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.btn{
+    background-color: rgba(25, 25, 221, 0.972);
+    color: white;
+    font-family: "Moderustic", sans-serif;
+
+}
+.btn:hover{
+    background-color: rgba(25, 25, 221, 0.972);
+    color: white;
+}
+
+#page-atualizar{
+    text-decoration: none;
+}
+#page-atualizar:hover{
+    background-color: rgba(25, 25, 221, 0.972);
+    color: white;
+}
